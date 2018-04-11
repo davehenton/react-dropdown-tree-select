@@ -1,6 +1,6 @@
 {
   "parser": "babel-eslint",
-  "extends": ["standard", "react-app"],
+  "extends": ["standard", "react-app", "react"],
   "rules": {
     "react/jsx-filename-extension": [
       1,
