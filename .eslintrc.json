@@ -12,7 +12,14 @@
     "jest": true,
     "es6": true, 
   },
-  "rules": {
+ {
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        },
+    "rules": {
     "arrow-parens": [2, "as-needed"],
     "comma-dangle": ["warn", "never"],
     "global-require": 0,
