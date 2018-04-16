@@ -1,8 +1,4 @@
 {
-  "parserOptions": {
-    "ecmaFeatures": {
-      "jsx": true
-    },
   "parser": "babel-eslint",
   "extends": "airbnb",
   "plugins": ["react", "jsx-a11y", "import"],
@@ -10,7 +6,8 @@
     "browser": true,
     "node": true,
     "jest": true,
-    "es6": true
+    "es6": true, 
+    "jsx": true
   },
   "rules": {
     "arrow-parens": [2, "as-needed"],
